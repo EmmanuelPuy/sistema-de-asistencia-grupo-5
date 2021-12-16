@@ -1,0 +1,52 @@
+{% extends "padre.twig" %}
+
+{%block stylesheet %}
+<link rel="stylesheet" type="text/css" href="public/css/style_login.css">
+    {%endblock%}
+
+    {% block titulo %}
+    
+      <title>{{titulo}}</title>
+    {% endblock %}
+
+{% block contenido %}
+
+
+<section class="formulario">   
+
+
+    <h3>IniciarSesion</h3>
+      
+    
+
+
+    <h5 class="m1">{{mensaje1}}</h5>
+
+        <form action="/mvc3/login" method="POST">       
+
+          
+              <p>
+                <label class="colocar_nombre">Usuario
+                  
+                </label>
+                  <input type="text" name="texto_usuario" id="usuario" placeholder="Ingresa tu usuario">
+              </p>
+            
+              <p>
+                <label class="contraseña">Contraseña
+                  
+                </label>
+                  <input type="password" name="texto_contraseña" id="contraseña" placeholder="Ingresa tu contraseña">
+              </p>                 
+            
+              <button type="submit" name="registrarse" id="enviar"><p>Ingresar</p></button>
+
+              
+        </form>
+  </div>  
+
+</section>
+
+
+
+{% endblock %}

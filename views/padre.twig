@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 
+    {%block stylesheet %} 
+    {%endblock%}
+
 <head>
-    <title>Grupo Nº5</title>
+    {% block titulo %}
+    {% endblock %}
     <meta charset="utf-8">
     {# <link rel="stylesheet" href="Framework/bootstrap/css/bootstrap.min.css"> #}
     
@@ -14,8 +18,10 @@
 
 
     {% block contenido %}
-
-
+{% endblock %}
+    
+    
+    {% block contenido2 %}
     {% endblock %}
 
 

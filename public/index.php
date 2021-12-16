@@ -48,6 +48,21 @@ $mapa->get(
 	['controller'=>'App\controllers\HomeController','action'=>'getHome']
 );
 
+//ruta para login de administradores//
+$mapa->get(
+	'login',
+	'/sistema-de-asistencia-grupo-5/login',
+	['controller'=>'App\controllers\LoginController','action'=>'getSesion']
+);
+
+
+$mapa->post(
+	'verificar',
+	'/sistema-de-asistencia-grupo-5/login',
+	['controller'=>'App\controllers\LoginController','action'=>'verificar']
+);
+///---------------------------------//
+
 $mapa->get(
 	'formulario_inscripcion',
 	'/sistema-de-asistencia-grupo-5/inscripcion',
@@ -91,3 +106,4 @@ if (!$route) {
 	echo $response->getBody();
 
 }
+

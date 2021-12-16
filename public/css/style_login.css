@@ -1,0 +1,103 @@
+/*************************************
+        LOGIN
+**************************************/
+
+  
+.formulario{  
+    font-family: 'Noto Sans', sans-serif;
+    width: 300px; 
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 30px;  
+    background-color: #EAECEE;
+    border: 0,2px solid black;
+    text-align: center;
+  }
+  
+  .m1{
+    color:red;
+  }
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 200px; 
+    height: 30px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 5px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 220px;   
+    cursor: pointer;
+  }
+  
+  
+  button{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #ab4493; 
+  }
+  
+  
+  
+  
+  .formulario h1, .formulario h3{
+    font-size: 29px;  
+    text-align: center; 
+    padding-bottom: 5px; 
+    color: #ab4493;
+  }
+  
+  .formulario h5{
+
+    color: red;
+  }
+  
+  
+  
+  
+  .formulario p{
+    font-size: 14px; 
+    color: #0e0e0e;
+  }
+  
+  .formulario p>label{
+    font-size: 20px;
+  }
+  
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+
+  
